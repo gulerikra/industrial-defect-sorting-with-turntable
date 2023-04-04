@@ -1,7 +1,10 @@
-// HIGH olduktan sonra sinyali kessen bile HIGH'ta kalıyor GND'ye deyince LOW'a düşüyor.
-// Denemek lazım
-// GPIO2 sadece GND'ye dokununca yok'a düşüyor onun dışında hep var
-// GPIO12 sinyal gelince (3V da oluyor gerilim bölücüyle çalıştı) var yokken yok. Sorunsuz çalışıyor gibi 
+// GPIO12 sinyal gelince var, yokken yok. Sorunsuz çalışıyor gibi. Bunu direk olc y0 üzerinden okuyarak yaptım. 
+
+// YAPILACAKALR
+// Genel konvo kodunda da denemek lazım. 
+// Sinyali al ve saat ile birlikte http isteğine yazdır(Motor çalışıyor/durdu gibi).
+// Resim çek ve gönder.
+
 void setup() {
   // GPIO2 pinini giriş olarak ayarla
   pinMode(12, INPUT);
