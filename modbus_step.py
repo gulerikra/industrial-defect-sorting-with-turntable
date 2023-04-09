@@ -1,3 +1,5 @@
+# pip3 install pyModbusTCP==v0.1.10
+
 import time
 from pyModbusTCP.client import ModbusClient
 
