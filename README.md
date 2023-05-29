@@ -30,17 +30,19 @@ step motor bağlantıları tamamlandı
 
 step motor gxwork kodu tamamlandı
 
-modbustan tetiklenince step belirli açılarda dönüyor
-
-EKSİKLER:
-
 nesne belirle
 
 nesne için model eğit 
 
-modbusa eğitilmiş modeli ekle ve detect edince ona göre step dönsün
+konvo kodu ile step kodunu birleştir
 
-konvo kodu ile step kodunu birleştir?? lazım gibi
+modbustan tetiklenince step belirli açılarda dönüyor ???????????????????????????
+------------------------------------------------------------------------------
+EKSİKLER:
+
+modbusa eğitilmiş modeli ekle ve detect edince ona göre step dönsün ??????????????????????????
+
+
 
 
 
