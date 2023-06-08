@@ -1,13 +1,13 @@
-# pip3 install pyModbusTCP==v0.1.10
+# kullnılan kütüphane versiyonu pip3 install pyModbusTCP==v0.1.10
+# modbus haberleşmesi ile alınan verilerin PLC'ye aktarılması
 
 import time
 from pyModbusTCP.client import ModbusClient
 import datetime
 import cv2
-from ultralytics import YOLO # YOLOv8 modeli için ultralytics kütüphanesini kullanıyoruz
+from ultralytics import YOLO 
 
 cap = cv2.VideoCapture(1)
-# Video çözünürlüğünü ayarlama
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
@@ -24,26 +24,21 @@ while True:
         time.sleep(2)
 
     if plc.is_open():
-        # Kameradan görüntüyü al
         ret, frame = cap.read()
-        # Görüntüyü yeniden boyutlandırma
         resized_frame = cv2.resize(frame, (640,640), interpolation=cv2.INTER_CUBIC)
-        # Nesne tespiti işlemini gerçekleştirmek için görüntüyü model kullanarak işleme sokuyoruz
-        de_out=model.predict(source=resized_frame, conf=0.3, show=True, device='cpu')
-        # Nesne tespiti sonucunda en az bir nesne tespit edilmişse
+        de_out=model.predict(source=resized_frame, conf=0.8, show=True, device='cpu')
         if len(de_out) != 0:
             isCompress = 0
             img_copy = resized_frame.copy()
 
-            # Tüm tespit edilen nesneler için
             for i in range(len(de_out[0])):
                 boxes = de_out[0].boxes
                 box = boxes[i]
                 clsID = boxes.cls.numpy()[0]
                 conf = box.conf.numpy()[0]
                 bb = box.xyxy.numpy()[0]
-                print(datetime.datetime.now()) # Tespit anını yazdır
-                print(clsID) # Tespit edilen nesnenin sınıfını yazdır
+                print(datetime.datetime.now())
+                print(clsID) 
                 cv2.rectangle(img_copy, (int(bb[0]), int(bb[1])), (int(bb[2]), int(bb[3])), (0, 255, 0), 2)
                 
                 if clsID == 0:
