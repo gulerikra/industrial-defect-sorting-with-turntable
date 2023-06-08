@@ -1,4 +1,4 @@
-# kullnılan kütüphane versiyonu pip3 install pyModbusTCP==v0.1.10
+# kullnılan pyModbusTCP kütüphanesi versiyonu pyModbusTCP==v0.1.10
 # modbus haberleşmesi ile alınan verilerin PLC'ye aktarılması
 
 import time
