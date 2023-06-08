@@ -1,4 +1,4 @@
-# bitirme-step-motor
+# endüstride hatalı ürün ayıklama uygulaması
 
 Bu çalışmada, konveyör bant üzerinden akmakta olan ürünlerin bir kamera aracılığıyla makine öğrenmesi yöntemleri kullanılarak sınıflandırılması ve sınıfına göre depolama işlemi yapılması hedeflenmiştir. 
 
