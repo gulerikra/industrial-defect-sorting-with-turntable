@@ -1,47 +1,28 @@
 # bitirme-step-motor
 
-![SONKE (2)](https://user-images.githubusercontent.com/62421679/230768707-a8c9d352-48f3-4dae-9e5a-ceb228cf7649.png)
+Bu çalışmada, konveyör bant üzerinden akmakta olan ürünlerin bir kamera aracılığıyla makine öğrenmesi yöntemleri kullanılarak sınıflandırılması ve sınıfına göre depolama işlemi yapılması hedeflenmiştir. 
 
-![vcd](https://user-images.githubusercontent.com/62421679/230768887-ad9ecf5d-c304-4980-8eb8-918b044f9cda.PNG)
+
+PROJE ŞEMASI
+
+![SONKE (3) (1)](https://github.com/gulerikra/bitirme-step-motor/assets/62421679/67da649c-79f8-487e-b19c-b837de38ba72)
+
+GXWORKS3 STEP MOTOR AYARI
 
 ![45](https://user-images.githubusercontent.com/62421679/230768890-d2171f89-57ba-404c-93ac-ec4e538eeb7f.PNG)
 
-![cx](https://user-images.githubusercontent.com/62421679/230769070-3fa12abe-cd19-432f-b781-5303ffe9aa4a.PNG)
+STEP MOTOR PLC KODU
 
-A  : RED
+![vcd](https://user-images.githubusercontent.com/62421679/230768887-ad9ecf5d-c304-4980-8eb8-918b044f9cda.PNG)
 
-/A : BLUE
+STEP MOTOR VE STEP MOTOR SÜRÜCÜSÜ ARASINDAKİ BAĞLANTI ŞEMASI
 
- B : GREEN
- 
-/B : BLACK
-*************
-Dir   :  Y1
+![AAAA](https://github.com/gulerikra/bitirme-step-motor/assets/62421679/10480ebd-b974-41d9-93e5-d3ded34f52b9)
 
-Pls   :  Y0
 
-Ena  :  Y3
+PROJE VİDEOSU
 
-Com :  100
-
-TAMAMLANDI:
-
-step motor bağlantıları tamamlandı
-
-step motor gxwork kodu tamamlandı
-
-nesne belirle
-
-nesne için model eğit 
-
-konvo kodu ile step kodunu birleştir
-
-modbustan tetiklenince step belirli açılarda dönüyor ???????????????????????????
-*************************************************************************************
-EKSİKLER:
-
-modbusa eğitilmiş modeli ekle ve detect edince ona göre step dönsün ??????????????????????????
-
+https://github.com/gulerikra/bitirme-step-motor/assets/62421679/1cecf76f-6db3-4a1c-a435-e41e770ae76f
 
 
 
