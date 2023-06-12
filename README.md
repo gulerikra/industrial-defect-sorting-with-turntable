@@ -4,8 +4,7 @@ Bu çalışmada, konveyör bant üzerinden akmakta olan ürünlerin bir kamera a
 
 
 PROJE ŞEMASI
-
-![SONKE (3) (1)](https://github.com/gulerikra/bitirme-step-motor/assets/62421679/67da649c-79f8-487e-b19c-b837de38ba72)
+![a](https://github.com/gulerikra/industrial-defect-sorting-with-turntable/assets/62421679/8a61cfa3-7a7a-4629-8ec7-ae3fef962ec1)
 
 GXWORKS3 STEP MOTOR AYARI
 
@@ -17,12 +16,12 @@ STEP MOTOR PLC KODU
 
 STEP MOTOR VE STEP MOTOR SÜRÜCÜSÜ ARASINDAKİ BAĞLANTI ŞEMASI
 
-![AAAA](https://github.com/gulerikra/bitirme-step-motor/assets/62421679/10480ebd-b974-41d9-93e5-d3ded34f52b9)
+![d](https://github.com/gulerikra/industrial-defect-sorting-with-turntable/assets/62421679/ebae7221-bf1f-4603-a4c2-14ebcaeb0f28)
 
 
 PROJE VİDEOSU
 
-https://github.com/gulerikra/bitirme-step-motor/assets/62421679/1cecf76f-6db3-4a1c-a435-e41e770ae76f
+https://github.com/gulerikra/industrial-defect-sorting-with-turntable/assets/62421679/f7a64708-42f9-4504-a4ca-9848981190d9
 
 
 
